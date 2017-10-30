@@ -47,7 +47,7 @@ public class Creature {
 
     public String checkStatus() {
         if(happiness <= 0 || energy <= 0 || fullness <= 0) {
-            print(this.getName() + "has died.");
+            print(this.getName() + " has died.");
             System.exit(0);
         }
 
